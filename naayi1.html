@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naayi Launching Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+.logo img {
+    width: 80px;
+}
+
+        
+.email-input {
+            display: flex;
+            margin-top: 20px;
+            border-color: 1a4c45e6;
+        }
+
+.email-input input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            width: 300px;
+        }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a4c45e6;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  width: 90px; 
+  height: auto;
+  margin-right: 15px;
+}
+
+
+.nav-menu {
+  flex-grow: 1; 
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: black;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover{
+     color: black;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    flex: 1;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content p {
+    color: #666;
+    line-height: 1.8;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+}
+
+.hero-content .btn {
+    background-color: #1a4c45e6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero-content .btn:hover {
+    background-color: #1a4c45e6;
+    transform: scale(1.05);
+}
+
+
+.quarter-circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    background-color: #1a4c45e6; /* Color of the quarter-circle */
+    border-top-left-radius: 100%; /* Creates the quarter-circle */
+    z-index: -1; /* Places it behind content */
+}
+
+    footer {
+        background-color: black;
+        color: #ffffff;
+        padding: 1px;
+        text-align: center;
+      }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+              <a href="#"><img src="naayiLogo.png" alt="Logo"></a>
+            </div>
+            <div class="nav-menu">
+              <ul class="nav-links">
+                <li><a href="naayi1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/naayi_official/" aria-label="Visit our Instagram" data-tooltip="Instagram">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram">
+                  </a>
+                  <a href="https://www.linkedin.com/company/naayi-com/" aria-label="Visit our LinkedIn" data-tooltip="LinkedIn">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn">
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61569793105584" aria-label="Visit our Facebook" data-tooltip="Facebook">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook.png" alt="Facebook">
+                  </a>
+                  <a href="https://www.x.com/naayi_officials/" aria-label="Visit our Twitter" data-tooltip="Facebook">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" alt="Facebook">
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCXHIh7b3JX1O7Ka_FAuU4yA" aria-label="Visit our Facebook" data-tooltip="Facebook">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube.png" alt="Facebook">
+                  </a>
+            </div>
+          </div>
+        
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Our website is <span>coming soon</span></h1>
+            <p>Subscribe to get the latest update about our product.</p>
+            <div class="email-input">
+                <input type="email" placeholder="Email Address">
+                <button>Subscribe</button>
+             </div>
+        </div>
+        <div class="quarter-circle"></div>
+    </main>
+
+    <footer>  
+        <div><p>© 2024 Naayi. All rights reserved.</p></div>
+    </footer>
+    
+</body>
+</html>
